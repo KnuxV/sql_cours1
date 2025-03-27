@@ -1,1 +1,3 @@
--- Active: 1740132132644@@127.0.0.1@3306
+--Dans 3.sql,
+-- trouvez le code de production de l'épisode « Hackerized! ».
+SELECT episodes.production_code from episodes where title LIKE '%Hackerized%';
