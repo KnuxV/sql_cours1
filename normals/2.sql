@@ -1,0 +1,1 @@
+SELECT normals."225m" from  main.normals where latitude='42.5' AND longitude='-69.5';

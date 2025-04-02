@@ -1,0 +1,2 @@
+-- 10 endroits avec la température normale de la surface de l'océan la plus basse, triés du plus froid au plus chaud
+SELECT normals.latitude, normals.longitude, "0m" from normals ORDER BY "0m" ASC, latitude ASC LIMIT 10;
